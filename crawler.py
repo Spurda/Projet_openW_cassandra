@@ -164,7 +164,7 @@ if __name__ == '__main__':
     france_df['temp_max'] = france_df['temp_max'].astype(float)
     #france_df.to_csv('clean_weather_France.csv')
     
-    CASSANDRA_HOST = ['172.21.0.3']
+    CASSANDRA_HOST = ['172.18.0.2']
     CASSANDRA_PORT = 9042
     auth_provider = PlainTextAuthProvider(username='cassandra', password='cassandra')
     
